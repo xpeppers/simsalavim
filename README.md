@@ -1,6 +1,6 @@
-simsalavim
+Sim Sala Vim
 ==========
 
-Personal vim distro
+Vim distro
     
-    curl https://raw.github.com/filippo-liverani/simsalavim/master/bootstrap -L -o - | sh
+    curl https://raw.github.com/xpeppers/simsalavim/master/bootstrap -L -o - | sh

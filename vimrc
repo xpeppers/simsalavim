@@ -22,11 +22,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'pangloss/vim-javascript'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'epeli/slimux'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'wlangstroth/vim-racket'
+
 
 call vundle#end()
 
@@ -175,17 +171,6 @@ map <C-l> :nohlsearch<CR>
 noremap  <F1> <NOP>
 inoremap <F1> <NOP>
 
-" Disable arrow keys
-
-inoremap  <Up>     <NOP>
-noremap   <Up>     <NOP>
-inoremap  <Down>   <NOP>
-noremap   <Down>   <NOP>
-inoremap  <Left>   <NOP>
-noremap   <Left>   <NOP>
-inoremap  <Right>  <NOP>
-noremap   <Right>  <NOP>
-noremap   <Right>  <NOP>
 
 " Disable useless stuff
 
@@ -262,19 +247,6 @@ let g:ctrlp_custom_ignore = {'dir':  'vendor/bundler$\|\.git$\|\.hg$\|\.svn$', '
 
 map <C-t> :CtrlPTag<CR>
 
-" Syntastic
-
-let g:syntastic_check_on_open = 1
-let g:syntastic_enable_elixir_checker = 1
-
-" Slimux
-
-map <Leader>s :SlimuxREPLSendLine<CR>
-vmap <Leader>s :SlimuxREPLSendSelection<CR>
-map <Leader>c :SlimuxShellLast<CR>
-map <Leader>k :SlimuxSendKeysLast<CR>
-
-let g:slimux_scheme_keybindings=1
 
 " Powerline
 

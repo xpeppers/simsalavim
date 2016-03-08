@@ -1,6 +1,9 @@
-Sim Sala Vim
-==========
+# Sim Sala Vim
 
-Vim distro
-    
-    curl https://raw.github.com/xpeppers/simsalavim/master/bootstrap -L -o - | sh
+Ready to use Vim distro
+ 
+## How to install   
+ 
+```
+curl https://raw.github.com/xpeppers/simsalavim/master/bootstrap -L -o - | sh
+```
